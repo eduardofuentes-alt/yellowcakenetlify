@@ -52,7 +52,7 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run clean && npm run develop",
-    "build": "yarn upgrade --latest && yarn install",
+    "build": "yarn upgrade --latest && yarn install && gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
